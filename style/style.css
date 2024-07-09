@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Inter-Bold;
+  src: url("/assets/fonts/static/Inter-Bold.ttf");
+}
+@font-face {
+  font-family:Inter;
+  src: url('../assets/fonts/static/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url('../assets/fonts/static/Inter-SemiBold.ttf');
+}
+@media only screen and (max-width:230px) {
+  #area{
+    width: 90vw!important;
+    min-height: 900px!important;
+  }
+}
+html{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  padding: 0;
+  border:0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color:hsl(0, 0%, 8%);
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#area
+{
+  background-color: hsl(0, 0%, 12%);
+  width:350px;
+  min-height: 550px;
+  border-radius: 10px;
+  word-break: break-all;
+  font-size: 14px;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#area>#img
+{
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+}
+#area>#img>img
+{
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+}
+#area>#title
+{
+  color: hsl(75, 94%, 57%);
+
+  font-size: 32px;
+}
+#area > button
+{
+  width: 90%;
+  height: 50px;
+  background-color:  hsl(0, 0%, 20%);
+  border-radius: 10px;
+  border: 0.1px;
+  font-size: 16px;
+  color: white;
+  font-family: Inter-SemiBold;
+}
+#area > button:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
